@@ -276,11 +276,11 @@ end
 + Run the tests and - yep, still all passing. Great. Now, I don't love that I'm duplicating this string like this, so maybe I'll just make a local variable called `meal` and then I can reference that.
 ```ruby
 def meal_choice(veg, starch, protein="meat")
-  meal = "A plate of #{} with #{veg} and #{starch}."
+  meal = "A plate of #{protein} with #{veg} and #{starch}."
   puts "What a nutritious meal!"
   puts
   meal
-end
+
 ```
 + Awesome, so this works and I feel pretty good about this. So that's it - we've used the specs as our guide and as you can see, they're not too bad. Definitely read them as you are working and use them to help guide you. So to recap what we've learned:
 
